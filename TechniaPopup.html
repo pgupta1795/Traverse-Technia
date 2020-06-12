@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="ISO-8859-1" />
+  <title>Traverse TECHNIA</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+
+<body>
+  <div class="link-icons">
+    <div class="link-container">
+      <div class="link" id="link">
+        <a href="https://www.technia.com" target="_blank" title="Website">
+          <img alt="" src="image/T_150.jpg" class="logo-icon" /></a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://products.technia.com/" target="_blank" title="products.technia.com">
+          <img src="TT.png" alt="products" width="20" height="20" />
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://mylms.paysquare.com/" target="_blank" title="PaySquare">
+          <i class="fa fa-rupee-sign" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="http://time.technia.com/cgi-bin/Maconomy/MaconomyPortal.macmcs.en_US_MCS.exe/Framework/maconomyportalmain.msc"
+          target="_blank" title="Maconomy">
+          <i class="fa fa-calendar-alt" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://www.linkedin.com/company/addnode-india/" target="_blank" title="Linkedin">
+          <i class="fab fa-linkedin" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://www.facebook.com/groups/575337169160735" target="_blank" title="Facebook">
+          <i class="fab fa-facebook" style="color: #07b5da;"></i>
+        </a>
+      </div>
+    </div>
+    <div class="link-container">
+      <div class="link" id="link">
+        <a href="https://bitbucket.org/technia/" target="_blank" title="Bitbucket">
+          <i class="fab fa-bitbucket" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://technia.jira.com/secure/Dashboard.jspa" target="_blank" title="Jira">
+          <i class="fab fa-jira" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://technia.jira.com/wiki/spaces/TECHNIA/pages/33652826/Addnode+India" target="_blank"
+          title="Confluence">
+          <i class="fab fa-confluence" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://onlineacademy.technia.com/onlineacademy/my/" target="_blank" title="OnlineAcademy">
+          <i class="fab fa-leanpub" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://fs-2260.cloudforce.com/home/home.jsp" target="_blank" title="Sage People">
+          <i class="fa fa-users" style="color: #07b5da;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="http://sonar.technia.com" target="_blank" title="Sonar">
+          <!-- <i class="fab fa-bitbucket" style="color: #07b5da;"></i> -->
+          <img alt="" src="image/sonar.png" class="logo-icon" /></a>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="findIssue">
+    <form id="runner">
+      <input type="text" id="jiraIssue" name="jiraIssue" size="80" placeholder="TVC-XXXX" />
+      <input class="searchButton" type="image" id="search" src="image/search.png" name="open" title="Open Jira Issue"
+        alt="Open" />
+    </form>
+  </div>
+  <div class="link-buttons">
+    <button id="trackButton" class="btn">
+      <i id="trackIcon" class="fa fa-hourglass" style="color: #07b5da;">
+        <span style="font-family: 'Open Sans', sans-serif;"> Monitor Time</span>
+      </i>
+    </button>
+  </div>
+  <div class="link-buttons-action"></div>
+  <button id="deleteButton" class="btnAction" style="display:none;">
+    <i id="deleteIcon" class="fa fa-trash" style="color: #07b5da;">
+      <span style="font-family: 'Open Sans', sans-serif;"> Delete</span>
+    </i>
+  </button>
+  <button id="export" class="btnAction" style="display:none;">
+    <i id="deleteIcon" class="fa fa-download" title="Export To Excel" style="color: #07b5da;">
+      <span style="font-family: 'Open Sans', sans-serif;">
+        Export
+      </span>
+    </i>
+  </button>
+  </div>
+  <div id="table">
+    <table id="timeTable" border="1px"></table>
+  </div>
+  <script type="text/javascript" src="TechniaPopup.js"></script>
+</body>
+
+</html>
