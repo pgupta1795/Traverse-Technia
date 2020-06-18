@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="ISO-8859-1" />
+  <title>Traverse TECHNIA</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/Style.css" />
+  <script src="/libs/js/canvasjs.js"></script>
+</head>
+
+<body>
+  <div class="link-icons">
+    <div class="link-container">
+      <div class="link" id="link">
+        <a href="https://www.technia.com" target="_blank" title="Website Technia">
+          <i class="fa fa-globe" style="color: white;"></i></a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://email.technia.com" target="_blank" title="Mail Technia">
+          <i class="fa fa-envelope" style="color: white;"></i></a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://products.technia.com/" target="_blank" title="products.technia.com">
+          <img alt="" src="T.png" class="logo-icon" /></a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://mylms.paysquare.com/" target="_blank" title="PaySquare">
+          <i class="fa fa-rupee-sign" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="http://time.technia.com/cgi-bin/Maconomy/MaconomyPortal.macmcs.en_US_MCS.exe/Framework/maconomyportalmain.msc"
+          target="_blank" title="Maconomy">
+          <i class="fa fa-calendar-alt" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="http://flex.technia.com/" target="_blank" title="Flex: Travel Expense">
+          <i class="fa fa-suitcase" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="http://ftp.technia.com/" target="_blank" title="FTP Technia">
+          <i class="fa fa-file-alt" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://www.linkedin.com/company/addnode-india/" target="_blank" title="Linkedin">
+          <i class="fab fa-linkedin" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://www.facebook.com/groups/575337169160735" target="_blank" title="Facebook">
+          <i class="fab fa-facebook" style="color: white;"></i>
+        </a>
+      </div>
+    </div>
+    <div class="link-container">
+      <div class="link" id="link">
+        <a href="https://bitbucket.org/technia/" target="_blank" title="Bitbucket">
+          <i class="fab fa-bitbucket" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://technia.jira.com/secure/Dashboard.jspa" target="_blank" title="Jira">
+          <i class="fab fa-jira" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://technia.jira.com/wiki/spaces/TECHNIA/pages/33652826/Addnode+India" target="_blank"
+          title="Confluence">
+          <i class="fab fa-confluence" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://sslvpn.technia.com/" target="_blank" title="Technia VPN">
+          <i class="fa fa-lock" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://technia.webex.com/" target="_blank" title="Technia Webex">
+          <i class="fa fa-circle" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://technia.sharefile.com/" target="_blank" title="Technia Sharefile">
+          <i class="fa fa-share-square" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://onlineacademy.technia.com/onlineacademy/my/" target="_blank" title="OnlineAcademy">
+          <i class="fab fa-leanpub" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="https://fs-2260.cloudforce.com/home/home.jsp" target="_blank" title="Sage People">
+          <i class="fa fa-users" style="color: white;"></i>
+        </a>
+      </div>
+      <div class="link" id="link">
+        <a href="http://sonar.technia.com" target="_blank" title="Sonar">
+          <!-- <i class="fab fa-bitbucket" style="color: #07b5da;"></i> -->
+          <img alt="" src="image/sonar2.png" class="logo-icon" /></a>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="findIssue">
+    <form id="runner">
+      <input type="text" id="jiraIssue" name="jiraIssue" size="80" placeholder="TVC-XXXX" />
+      <input class="searchButton" type="image" id="search" src="image/search.png" name="open" title="Open Jira Issue"
+        alt="Open" />
+    </form>
+  </div>
+  <div class="link-buttons-action" style="background-color: #f2f2f2;">
+    <button id="trackButton" class="btnAction">
+      <i id="actionIcon" class="fa fa-clock" style="color: #07b5da;" title="Monitor Time">
+      </i>
+    </button>
+    <button id="convertToChart" class="btnAction"">
+      <i id=" actionIcon" class="fa fa-chart-bar" title="Time Chart-Bar" style="color: #07b5da;">
+      </i>
+    </button>
+    <button id="convertToPie" class="btnAction"">
+      <i id=" actionIcon" class="fa fa-chart-pie" title="Time Pie-Chart" style="color: #07b5da;">
+      </i>
+    </button>
+    <button id="deleteButton" class="btnAction" ">
+      <i id=" actionIcon" class="fa fa-trash" title="Delete" style="color: #07b5da;">
+      </i>
+    </button>
+    <button id="export" class="btnAction" ">
+      <i id=" actionIcon" class="fa fa-download" title="Download" style="color: #07b5da;">
+      </i>
+    </button>
+    <span style="display:none;">Traverse Technia</span>
+  </div>
+  </div>
+  <div id="table" style="display:contents;">
+  </div>
+  <div id="chartContainer" style="height: 300px; width: 100%; display:none;"></div>
+  <div id="pieContainer" style="height: 300px; width: 100%; display:none;"></div>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/CreateTable.js"></script>
+  <script type="text/javascript" src="js/CreateChart.js"></script>
+  <script type="text/javascript" src="js/CreatePie.js"></script>
+  <script type="text/javascript" src="js/Delete-Export_Table.js"></script>
+  <script type="text/javascript" src="js/SearchJIRA.js"></script>
+</body>
+
+</html>
