@@ -1,9 +1,11 @@
 {
   "name": "Traverse TECHNIA",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "manifest_version": 2,
   "description": "1.) Navigate to all the Technia content\n\n\n2.) Manage JIRA tickets \n\n\n3.) Monitor & export the time spent",
-  "icons": { "128": "TT_128.png" },
+  "icons": {
+    "128": "TT_128.png"
+  },
   "background": {
     "scripts": ["js/background.js"],
     "persistent": false
@@ -12,14 +14,5 @@
     "default_icon": "TT.png",
     "default_popup": "index.html"
   },
-  "permissions": [
-    "history",
-    "idle",
-    "activeTab",
-    "unlimitedStorage",
-    "tabs",
-    "storage",
-    "declarativeContent",
-    "<all_urls>"
-  ]
+  "permissions": ["idle", "tabs", "storage", "https://technia.jira.com/"]
 }
