@@ -1,5 +1,10 @@
 # Traverse Extension
-It Provides the source code for chrome extension created for the purpose of  Navigate to all the Technia URLs in one place, Manage your JIRA tickets, Monitor & export the time spent on the browser.
+It Provides the source code for chrome extension created for the purpose of  Navigate to all the Technia URLs in one place, Manage your JIRA tickets, Monitor & export the time spent on the browser.<br>
+Extension for CHROME :<br>
+https://chrome.google.com/webstore/detail/traverse-technia/ndlngenadkabhgedonbbnamimfpnjedi/related?authuser=0&hl=en-GB<br>
+Extnesion for FIREFOX :<br>
+https://addons.mozilla.org/en-US/firefox/addon/traverse-technia/<br>
+
 
 
 1. <img src="https://github.com/pgupta1795/Traverse-Technia/blob/master/Working/UI_1.PNG" width="350" title="START"> 1.1 <img src="https://github.com/pgupta1795/Traverse-Technia/blob/master/Working/UI_2.PNG" width="350" title="Table to track time">
